@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    background:fixed;
+    background-size:cover;
+    background-color: rgba(8, 88, 5, 0.719);
+    font-family: 'Noto Sans', sans-serif;}
+
+.nav{
+    width:100%;
+    background-color: #2f6329;
+    height: 7vh;
+    border-bottom:4px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin :0px; 
+}
+  
+.nav-cerrado{
+    background-color: #ffffff;
+    height: 5vh;
+    border-bottom:4px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin :0px; 
+    padding: 0.5vh;
+}
+
+.letra-av{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #301901;
+    padding:2vh;
+    
+    
+}
+
+.link{
+    text-align:center;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    width: 50px;
+    padding: 0.5vh;
+    cursor:pointer;   
+}
+
+#semi-fundo2{
+    background-color:#2f6329;
+    padding:30px;
+    margin:12px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 30px #2f6329;
+
+}
+
+.product-container{
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.product-img{
+    height:300px;
+    width: 80%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#img-1{
+    background-image: url("./img/img\ cerrado.jpeg");
+    width: 300px;
+    height: 200px;
+    margin:20px;
+    float:right;
+    
+    
+}
+
+#img-2{
+    background-image: url("./img/rede\ cerrado.jpeg");
+    width: 300px;
+    height: 200px;
+    margin:20px;
+    float:left;
+    
+    
+}
+
+.desc{
+    font-size: 20px;
+    text-align: justify;
+    color:#000000;    
+}
+
+.card-content{
+    width: 15vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 40px;
+    
+}
+
+.card{
+    background: #2f6329;
+    box-shadow: 0px 10px 30px #2f6329;
+    border-radius: 15px;
+}
+
+.h2-foot{
+    padding: 15px;
+    color: #000000;
+    font-size: 18px;
+}
+
+.btn-baixar{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 800;
+    color: #000000;
+    background: #12410d;
+    cursor: pointer;
+    box-shadow: 0px 10px 30px #2f6329;
+}
+
+.img-qrcode{
+    background: url("./img/QRcode.jpeg") center/cover;
+    height: 250px;
+    width: 100%;
+
+
+}
